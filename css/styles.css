@@ -106,22 +106,23 @@ p {
 }
 
 /* Hero styles*/
-.hero .container {
+/* .hero .container {
   display: flex;
   flex-direction: column;
-}
+} */
 .hero {
   background-color: var(--bacckground-color-dark);
+  text-align: center;
 }
 .hero-title {
   color: var(--color-white);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-top: 200px;
+  /* margin-top: 200px; */
 }
 .hero-btn {
   background-color: var(--accent-background-color);
@@ -135,7 +136,7 @@ p {
   height: 50px;
   margin-top: 30px;
   align-self: center;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -143,6 +144,16 @@ p {
   color: var(--accent-background-color);
 }
 /*преимущества*/
+.features > .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.feat-item {
+  flex-basis: calc(100% / 4 - 30px);
+}
+
 .feature-title {
   color: var(--color-dark);
   font-weight: 700;
@@ -157,8 +168,13 @@ p {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  margin-top: 10px;
 }
 /* Чем мы занимаемся*/
+.wokk > .container {
+  display: flex;
+  flex-direction: row;
+}
 .work-title {
   color: var(--color-dark);
   font-weight: 700;
@@ -166,6 +182,7 @@ p {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  display: block;
 }
 /* Наша команда*/
 .team {
