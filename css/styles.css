@@ -332,7 +332,7 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
   display: block;
-  padding: 20px 24px 4px 20px;
+  margin-bottom: 4px;
 }
 .card-item {
   border: 1px solid #eeeeee;
@@ -351,5 +351,7 @@ p {
   line-height: 1.9;
   letter-spacing: 0.03em;
   display: block;
-  padding: 0 24px 20px 24px;
+}
+.cards-description {
+  padding: 20px 24px;
 }
