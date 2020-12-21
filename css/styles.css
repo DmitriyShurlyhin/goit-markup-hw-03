@@ -311,6 +311,7 @@ p {
   cursor: pointer;
   border-radius: 4px;
   border: none;
+  padding: 6px 22px;
 }
 .filt-btn:hover,
 .filt-btn:focus {
