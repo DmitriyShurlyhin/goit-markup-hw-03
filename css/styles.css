@@ -206,6 +206,7 @@ p {
 /* Наша команда*/
 .team-block {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .team-sec {
   display: flex;
